@@ -32,6 +32,11 @@ app.use('/api/goals', goalRoutes);
 app.use('/api/streak', streakRoutes);
 app.use('/api/ai', aiRoutes);
 
+// Health check route for Vercel
+app.get('/', (req, res) => {
+  res.status(200).json({ status: 'success', message: 'SpendSense API is running smoothly.' });
+});
+
 app.use(errorHandler);
 
 const PORT = process.env.PORT || 5000;
