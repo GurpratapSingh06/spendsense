@@ -1,0 +1,30 @@
+# Environment files
+.env
+.env.local
+.env.production
+client/.env
+client/.env.local
+server/.env
+server/.env.local
+
+# Dependencies
+node_modules/
+*/node_modules/
+client/node_modules/
+server/node_modules/
+
+# Build
+client/dist/
+client/build/
+
+# Logs
+*.log
+error.log
+client/error.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Vercel
+.vercel
