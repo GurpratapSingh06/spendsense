@@ -1,6 +1,6 @@
 # SpendSense 
 
-**The ultimate Student Finance OS.** 
+**The ultimate Student Finance Solution.** 
 SpendSense is a modern, gamified, and AI-powered financial tracking web application built specifically for college students. It helps students track expenses, respect monthly budgets, save for goals, and build good financial habits through AI-driven reality checks and gamification.
 
 ---
